@@ -1,29 +1,3 @@
-# ----------- CONFIGURABLE START -----------
 title:            "Ava's Keycap Space"
 description:      "Avalai is making and collecting artisans again."
-url:              https://www.avalai.ca
-remote_theme:     Liberxue/liberxue.github.io
-signoff:          Avalai
-# facebook_appid:
-# google_analytics:
-share:            false
-paginate: 150
-paginate_path: "liberxuepage:num"
-gems: [jekyll-paginate]
-links:
-  - name:         Home
-    url:          /
-    external:     false
-  - name:         Blog
-    url:          /
-    external:     false
-  - name:         Archives
-    url:          /archives
-    external:     false
-# ------------ CONFIGURABLE END ------------
-
-#permalink:        /:categories/:title.html
-permalink: /:year/:month/:day/:title.html
-defaults:
-  - values:
-      layout: "default"
+url:              "https://www.avalai.ca"
