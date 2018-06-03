@@ -1,0 +1,69 @@
+.gallery {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+
+	article {
+		display: block;
+		width: 300px;
+		height: 17em;
+		margin: 16px 0;
+
+		-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+		-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+		box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+
+		a { border: 0; width: 0; height: 0; }
+
+		.image {
+			display: block;
+			width: 100%;
+			height: 50%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			position: relative;
+			z-index: 1;
+		}
+
+		.flair {
+			display: block;
+			height: 40px;
+			width: 60%;
+			background-color: rgba(193, 112, 255, .7);
+			@include angle(before, true);
+			position: relative;
+			top: -6px;
+			left: 40%;
+			z-index: 2;
+		}
+
+		.major {
+			display: block;
+			height: 50%;
+			width: 100%;
+			background-color: $dark-purple;
+			margin: 0; padding: 16px;
+			@include angle(before);
+			position: relative;
+			top: -40px;
+			z-index: 3;
+			
+			h3 {
+				color: $pale-purple;
+				line-height: 1.3em;
+			}
+
+			h3:after {
+				width: 70%;
+				background-color: $pale-purple;
+				margin: .7em 0;
+			}
+
+			p {
+				color: $light-purple;
+			}
+		}
+	}
+}

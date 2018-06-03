@@ -1,0 +1,40 @@
+#header {
+	background-color: $dark-purple;
+}
+
+#banner::after {
+	display: none;
+}
+
+// For Pages
+
+#page {
+	background-color: $almost-white;
+
+	#page-wrapper {
+		margin: 3%;
+
+		h2 {
+			color: $dark-purple;
+		}
+	}
+}
+
+#contact, #footer {
+	background-color: $dark-purple;
+}
+
+#contact {
+
+	> .inner section {
+		padding: 4em 3em 2em 0;
+	}
+
+	.contact-method._social {
+		padding-left: 0;
+
+		.icons .icon {
+			position: relative;
+		}
+	}
+}

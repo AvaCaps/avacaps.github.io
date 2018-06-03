@@ -1,0 +1,14 @@
+.sass-cache
+_site
+.jekyll-metadata
+#_includes
+#_layouts
+_layouts/allposts.html
+_layouts/landing.html
+_layouts/page.html
+_layouts/post.html
+# assets
+assets/images
+assets/js
+#pages
+404.html

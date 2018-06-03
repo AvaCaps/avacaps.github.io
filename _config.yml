@@ -1,3 +1,39 @@
 title:            "Ava's Keycap Space"
 description:      "Avalai is making and collecting artisans again."
+baseurl: "" # the subpath of your site, e.g. /blog
 url:              "https://www.avalai.ca"
+remote_theme:     andrewbanchich/forty-jekyll-theme
+# theme: forty_jekyll_theme
+email: caps@avalai.ca
+author: Avalai
+city: Ottawa
+state: 
+country: Canada
+phone:
+
+ # homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 2
+
+# social settings
+500px_url:
+facebook_url:
+github_url: 
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com/Avalai
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/Avalai
+# flickr_url: https://www.flickr.com/photos/avalai/ # Planned addition
+# geekhack_url: https://geekhack.org/index.php?action=profile;u=59262 # Planned addition
+# discord_url:
+# discord_un: @Avalai#4780
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compact
+  sass_dir: _sass
