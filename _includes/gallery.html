@@ -1,7 +1,7 @@
-<section class="gallery">
+<section class="gallery {{ page.tags | downcase }}">
     {% for keycap in include.colcat %}
         {% if keycap.tags contains include.coltag %}
-            <article>
+            <article class="{{ include.coltag | downcase }}">
                 <!-- <a href="{{ post.url  | relative_url }}" class="link"> -->
                     <span class="image" style="background-image: url({{ keycap.image }});"></span>
                     <span class="flair"></span>
