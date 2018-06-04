@@ -44,24 +44,36 @@
 		padding: 4em 3em 2em 0;
 	}
 
-	.contact-method._social {
-		padding-left: 0;
+	.contact-method {
 
-		.icons .icon {
-			position: relative;
-		
-			&.geekhack::before {
-				content: '\00a0';
-				background-image: url('/assets/icons/geekhack.svg');
-				background-repeat: no-repeat;
-				background-size: 15px;
-				background-position: center;
+		&._social {
+			padding-left: 0;
+
+			.icons .icon {
+				position: relative;
+			
+				&.geekhack::before {
+					content: '\00a0';
+					background-image: url('/assets/icons/geekhack.svg');
+					background-repeat: no-repeat;
+					background-size: 15px;
+					background-position: center;
+				}
 			}
 		}
+
+
+		.discord::before {
+			content: '\00a0';
+			background-image: url('/assets/icons/discord.svg');
+			background-repeat: no-repeat;
+			background-size: 18px;
+			background-position: center;
+		}
+	}
 
 		// Should be properly replaced later
 		a.icon.alt:hover::before {
 			background-color: $light-purple;
 		}
-	}
 }
