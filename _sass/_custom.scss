@@ -1,5 +1,14 @@
 #header {
 	background-color: $dark-purple;
+
+	// Should be properly replaced later
+	.logo:hover strong {
+		background-color: $light-purple;
+		// color: $light-purple;
+	}
+	nav a:hover {
+		color: $light-purple !important;
+	}
 }
 
 #banner::after {
@@ -16,6 +25,11 @@
 
 		h2 {
 			color: $dark-purple;
+			margin: 1em 0;
+
+			&:first-child {
+				margin-top: 0;
+			}
 		}
 	}
 }
@@ -35,6 +49,19 @@
 
 		.icons .icon {
 			position: relative;
+		
+			&.geekhack::before {
+				content: '\00a0';
+				background-image: url('/assets/icons/geekhack.svg');
+				background-repeat: no-repeat;
+				background-size: 15px;
+				background-position: center;
+			}
+		}
+
+		// Should be properly replaced later
+		a.icon.alt:hover::before {
+			background-color: $light-purple;
 		}
 	}
 }

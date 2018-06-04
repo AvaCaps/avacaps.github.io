@@ -1,16 +1,19 @@
 <section class="gallery">
-    {% for post in include.postcat %}
-        {% if post.tags contains include.posttag %}
+    {% for keycap in include.colcat %}
+        {% if keycap.tags contains include.coltag %}
             <article>
                 <!-- <a href="{{ post.url  | relative_url }}" class="link"> -->
-                    <span class="image" style="background-image: url({{ post.image }});"></span>
+                    <span class="image" style="background-image: url({{ keycap.image }});"></span>
                     <span class="flair"></span>
                     <header class="major">
-                        <h3>{{ post.title }}</h3>
-                        <p>{{ post.author }}</p>
+                        <h3>{{ keycap.colorway }} {{ keycap.sculpt }}</h3>
+                        <p>{{ keycap.maker }}</p>
                     </header>
                 <!-- </a> -->
             </article>
         {% endif %} 
     {% endfor %}
+    <article class="fill-empty-space"></article>
+    <article class="fill-empty-space"></article>
+    <article class="fill-empty-space"></article>
 </section>
