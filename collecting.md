@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Collection
+tags: collection
 image: null
 ---
 

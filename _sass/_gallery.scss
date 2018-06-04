@@ -71,4 +71,19 @@
 		    margin: 0;
 		}
 	}
+
+	// Styles for specific galleries
+
+	&.catalogue {
+		.image {
+			height: 70%;
+		}
+		.major {
+			height: 30%;
+
+			h3::after {
+				display: none;
+			}
+		}
+	}
 }
