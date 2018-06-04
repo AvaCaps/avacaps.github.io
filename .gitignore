@@ -2,13 +2,14 @@
 _site
 .jekyll-metadata
 #_includes
+#_sass
+_sass/libs
 #_layouts
 _layouts/allposts.html
 _layouts/landing.html
 _layouts/page.html
 _layouts/post.html
 # assets
-assets/images
 assets/js
 #pages
 404.html
