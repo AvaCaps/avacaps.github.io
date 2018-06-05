@@ -5,7 +5,7 @@ Gemfile
 Gemfile.lock
 #_includes
 #_sass
-_sass/libs
+# _sass/libs
 #_layouts
 _layouts/allposts.html
 _layouts/landing.html
