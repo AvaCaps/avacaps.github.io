@@ -3,7 +3,11 @@
         {% if keycap.tags contains include.coltag %}
             <article class="{{ include.coltag | downcase }}">
                 <!-- <a href="{{ post.url  | relative_url }}" class="link"> -->
+                    {% if keycap.image contains 'http' %}
                     <span class="image" style="background-image: url({{ keycap.image }});"></span>
+                    {% else %}
+                    <span class="image" style="background-image: url(../{{ keycap.image }});"></span>
+                    {% endif %}
                     <span class="flair"></span>
                     <header class="major">
                         <h3>{{ keycap.colorway }} {{ keycap.sculpt }}</h3>
