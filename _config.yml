@@ -1,8 +1,9 @@
 title:            "Ava's Keycap Space"
-description:      "I'm collecting artisans again."
+description:      "Making and collecting artisan keycaps."
 baseurl: "" # the subpath of your site, e.g. /blog
 url:              "https://www.avalai.ca"
 remote_theme:     andrewbanchich/forty-jekyll-theme
+permalink: pretty
 # theme: forty_jekyll_theme
 email: caps@avalai.ca
 author: Avalai
