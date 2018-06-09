@@ -1,5 +1,8 @@
+{% assign caps = include.colcat | group_by: 'maker' %}
+{% assign sortedcaps = caps | sort: 'maker' %}
+
 <section class="gallery {{ page.tags | downcase }}">
-    {% for keycap in include.colcat %}
+    {% for keycap in sortedcaps %}
         {% if keycap.tags contains include.coltag %}
             <article class="{{ include.coltag | downcase }}">
                 <!-- <a href="{{ post.url  | relative_url }}" class="link"> -->
