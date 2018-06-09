@@ -1,7 +1,7 @@
 ---
 colorway:
 sculpt: Cat
-Maker: Avalai
+maker: Avalai
 tags: Sculpting
 image: assets/images/sculpts/sculpt-cat.jpg
 ---
