@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 Gemfile
 Gemfile.lock
+_config.yml
 #_includes
 #_sass
 # _sass/libs
