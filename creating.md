@@ -1,13 +1,22 @@
 ---
 layout: page
-title: Creating
+title: Catalogue
+tags: catalogue
 image: null
 ---
 
-<h2>Current Sculpts</h2>
+<!-- ## Current Sculpts -->
 
-{% include gallery.html colcat=site.catalogue coltag="Current" %}
+<!-- {% include gallery.html colcat=site.catalogue coltag="Current" %} -->
 
-<!-- <h2>Blog Posts</h2> -->
+## Prototypes
+
+{% include gallery.html colcat=site.catalogue coltag="Prototype" %}
+
+## In Progress
+
+{% include gallery.html colcat=site.catalogue coltag="Sculpting" %}
+
+<!-- ## Blog Posts -->
 
 <!-- {% include gallery.html postcat=site.categories.Blog posttag="Caps" %} -->
